@@ -1,0 +1,17 @@
+import time
+m = float(input("Digite uma distancia em Metro: "))
+
+print ("A medida de {}M corresponde a".format(m))
+print("Calculando...")
+time.sleep(1.5)
+print(m / 1000,"KM")
+time.sleep(1)
+print(m / 100,"HM")
+time.sleep(1)
+print(m / 10,"DAM")
+time.sleep(1)
+print(m * 10,"DM")
+time.sleep(1)
+print(m * 100,"CM")
+time.sleep(1)
+print(m * 1000,"MM")
